@@ -5,7 +5,7 @@
   body {
     font-family: 'Proxima Nova Rg';
   }
-  
+ 
   .h-40 {
       height: 40% !important;
   }
@@ -46,7 +46,7 @@
 
   
   section.hero {
-    background: url(../img/hero_01.jpg);
+    background: url(../img/hero_01.jpg) no-repeat center center;
     background-size: cover;
     background-position: bottom;
     height: 80vh;
@@ -69,7 +69,7 @@
   
   section.about .image_wrapper {
     background: #fff;
-    box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+    box-shadow: 3px -2px 24px 7px rgba(0, 0, 0, 0.45), -5px 3px 20px 1px rgba(0, 0, 0, 0.41);
     -webkit-box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
     -moz-box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
     text-align: center;
@@ -78,3 +78,35 @@
   section.about .image_wrapper img {
     padding: 1rem;
   }
+
+  section.about span {
+    font-family: 'Proxima Nova Rg';
+    font-size: 1.312rem;
+    letter-spacing: 0.5rem;
+
+  }
+  section.about p {
+    font-family: 'Proxima Nova Thin';
+    font-size: 1.312rem;
+    letter-spacing: 0.2rem;
+    }
+
+  section.services {
+    height: 100vh;
+    background: rgb(235,235,235);
+    background: #ebebeb;
+  }
+  section.services h2 {
+    font-family: 'Proxima Nova Extrabld';
+    font-size: 3rem;
+    padding: 7rem, 0, 1rem, 0;
+
+  }
+  section.services .section_header_devider {
+    height: 2px;
+    width: 100px;
+    background-color: #bbbdbf;
+    display: block;
+  }
+
+
